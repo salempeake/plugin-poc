@@ -1,0 +1,55 @@
+@page
+@model Peake.ERP.Accounting.Areas.Accounting.Pages.Index
+@{
+ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is the Accounting Index.</p>
+    <table class="table">
+        <tr>
+            <td>
+                Chart
+            </td>
+            <td>
+                Account
+            </td>
+            <td>
+                Name
+            </td>
+            <td>
+                Debit
+            </td>
+            <td>
+                Credit
+            </td>
+            <td>
+                Balance
+            </td>
+        </tr>
+        @foreach (var row in Model.TbData)
+        {
+            <tr>
+                <td>
+                    @row.ChartId
+                </td>
+                <td>
+                    @row.AccountNumber
+                </td>
+                <td>
+                    @row.AccountName
+                </td>
+                <td>
+                    @row.Debit
+                </td>
+                <td>
+                    @row.Credit
+                </td>
+                <td>
+                    @row.Balance
+                </td>
+            </tr>
+        }
+    </table>
+</div>

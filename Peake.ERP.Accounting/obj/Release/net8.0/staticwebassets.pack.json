@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/salem/Code/Peake.ERP/Peake.ERP.Accounting/obj/Release/net8.0/scopedcss/projectbundle/Peake.ERP.Accounting.bundle.scp.css",
+      "PackagePath": "staticwebassets/Peake.ERP.Accounting.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.Peake.ERP.Accounting.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.Peake.ERP.Accounting.props",
+      "PackagePath": "build\\Peake.ERP.Accounting.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Peake.ERP.Accounting.props",
+      "PackagePath": "buildMultiTargeting\\Peake.ERP.Accounting.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Peake.ERP.Accounting.props",
+      "PackagePath": "buildTransitive\\Peake.ERP.Accounting.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

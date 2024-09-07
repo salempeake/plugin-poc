@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Peake.ERP.Accounting.props" />
+</Project>

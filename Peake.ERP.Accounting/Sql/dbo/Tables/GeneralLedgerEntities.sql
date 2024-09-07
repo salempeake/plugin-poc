@@ -1,0 +1,6 @@
+CREATE TABLE GeneralLedgerEntities (
+    Id NUMERIC IDENTITY(1,1) PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL,
+    LockoutDate DATETIME2 NOT NULL DEFAULT GETDATE(),
+    DefaultChart VARCHAR(50) NOT NULL REFERENCES ChartOfAccounts(Id)
+)
