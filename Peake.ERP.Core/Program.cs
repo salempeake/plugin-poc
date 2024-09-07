@@ -16,6 +16,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Enable runtime compilation of razor pages.
 builder.Services.AddRazorPages()
     .AddRazorRuntimeCompilation();
 
